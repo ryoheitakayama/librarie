@@ -49,8 +49,8 @@
 		}else {
 		require_once '../../amazon/amazon_s.php';
 		$api=new MyAmazon(array(
-			'access_key_id' =>'AKIAI7ZLX7ATNIDBNNRQ',
-			'secret_access_key' =>'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',
+			'access_key_id' =>'',
+			'secret_access_key' =>'',
 			'associate_tag' => 'ryoheipro-22'
 		));
 
