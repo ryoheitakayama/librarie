@@ -1,0 +1,395 @@
+body{
+	
+	background-image:url("wood.png");
+/*	background-repeat:no-repeat;*/
+	background-position:10px 10px;
+/*	background-attachment:fixed;*/
+	padding-left:8px;
+	padding-right:8px;
+	padding-top:8px;
+	padding-bottom:8px;
+
+}
+.title{
+	width:1000px;
+	height:140px;
+
+}
+.nikukyu{
+	margin-top:0px;
+	float:left;
+}
+.inline_f{
+	position:absolute;
+	margin-top:100px;
+	margin-left:500px;
+}
+.amazon_search{
+	position:absolute;
+	margin-top:50px;
+	margin-left:820px;
+}
+.menu{
+	clear:both;/*肉球のfloatを解除するため*/
+	float:left;
+	margin:0px;
+	display:block;
+	width:60px;
+	margin-top:5px;
+}
+li {
+	float:left; 
+	display:block;
+	font-size:20px;
+}
+
+.box1 {
+	margin-left:40px;
+	width:1000px;
+	height:26px;
+}
+.tab1on{background-color:#008080;}
+.tab1off{background-color:#669999;}
+.tab2on{background-color:#cc3300;}
+.tab2off{background-color:#f08080;}
+.tab3on{background-color:#3333ff;}
+.tab3off{background-color:#ccccff;}
+.tab4on{background-color:#33cc33;}
+.tab4off{background-color:#ccffcc;}
+.tab5on{background-color:#ff6600;}
+.tab5off{background-color:#FFCC99;}
+.tab6on{background-color:#009900;}
+.tab6off{background-color:#99cc99;}
+.tab7on{background-color:#ff69b4;}
+.tab7off{background-color:#ffccff;}
+.tab8on{background-color:#40e0d0;}
+.tab8off{background-color:#ccffff;}
+
+.tab1on,.tab1off,.tab2on,.tab2off,.tab3on,.tab3off,.tab4on,.tab4off,.tab5on,.tab5off,.tab6on,.tab6off,.tab7on,.tab7off,.tab8on,.tab8off
+{
+	display:block;
+	width:100px;
+	height:30px;
+	margin-right:7px;
+	text-align:center;
+}
+/*
+.tab1on a:link
+.tab2on a:link,
+.tab3on a:link,
+.tab4on a:link,
+.tab5on a:link,
+.tab6on a:link
+.tab7on a:link
+{
+	color:#ffffff;
+	text-decoration:none;
+	display:block;
+	margin-top:0px;
+}*/
+
+/*
+.tab1on a:visited
+.tab2on a:visited,
+.tab3on a:visited,
+.tab4on a:visited,
+.tab5on a:visited,
+.tab6on a:visited
+.tab7on a:visited
+{
+	color:#000000;
+	text-decoration:none;
+	display:block;
+	margin-top:0px;
+}*/
+
+.tab1on:hover,
+.tab2on:hover,
+.tab3on:hover,
+.tab4on:hover,
+.tab5on:hover,
+.tab6on:hover,
+.tab7on:hover,
+.tab8on:hover
+{
+	color:#ffffff;
+	text-decoration:none;
+	display:block;
+	margin-top:0px;
+	cursor:pointer;
+}
+
+.tab1off a:link
+/*.tab2off a:link,
+.tab3off a:link,
+.tab4off a:link,
+.tab5off a:link,
+.tab6off a:link
+.tab7off a:link*/
+{
+	color:#000000;
+	text-decoration:none;
+	display:block;
+	margin-top:0px;
+}
+/*
+.tab1off a:visited
+.tab2off a:visited,
+.tab3off a:visited,
+.tab4off a:visited,
+.tab5off a:visited,
+.tab6off a:visited
+.tab7off a:visited
+{
+	color:#000000;
+	text-decoration:none;
+	display:block;
+	margin-top:5px;
+}*/
+
+.tab1off:hover,
+.tab2off:hover,
+.tab3off:hover,
+.tab4off:hover,
+.tab5off:hover,
+.tab6off:hover,
+.tab7off:hover,
+.tab8off:hover
+{
+	color:#ff3333;
+	text-decoration:underline;
+	display:block;
+	margin-top:0px;
+	cursor:pointer;
+}
+
+/*ここから、サブメニューのデザイン*/
+#main_books{
+	margin-right:150px;
+	float:right;
+}
+
+#bookshelf{
+	margin-top:40px;
+	margin-left:40px;
+	margin-right:60px;
+}
+#book0{
+	clear:both;
+	float:left;
+	margin-left:30px; 
+	margin-top:30px;
+}
+#book1,#book2,#book3,#book4,#book5{
+	margin-left:20px; 
+	margin-top:30px;
+}
+#book6{
+	clear:both;
+	float:left;
+	margin-left:30px; 
+	margin-top:25px;
+}
+#book7,#book8,#book9,#book10,#book11{
+	margin-left:20px; 
+	margin-top:25px;
+}
+#book12{
+	clear:both;
+	float:left;
+	margin-left:30px; 
+	margin-top:20px;
+}
+#book13,#book14,#book15,#book16,#book17{
+	margin-left:20px; 
+	margin-top:20px;
+}
+#book18{
+	clear:both;
+	float:left;
+	margin-left:30px; 
+	margin-top:17px;
+}
+#book19,#book20,#book21,#book22,#book23{
+	margin-left:20px; 
+	margin-top:17px;
+}
+#sub_menu{
+	display:block;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:810px;
+}
+.sub01,.sub11,.sub21
+{
+	border-left:solid 1px #008080;
+	border-right:solid 1px #008080;
+	border-top:solid 1px #008080;
+	border-bottom:none;
+	text-align:center;
+	background-color:#008080;
+	color:#ffffbb;
+	font-weight:bold;
+	padding-top:3px;
+	width:125px;
+}
+.sub02,.sub12,.sub22
+{
+	padding-top:10px;
+	border-left:solid 1px #008080;
+	border-right:solid 1px #008080;
+	border-top:none;
+	border-bottom:solid 1px #008080;
+	width:125px;
+}
+.sub03,.sub13,.sub23
+{
+	margin-top:0px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+/*サブメニューのデザインここまで*/
+
+#box21{
+	width:950px;
+	height:550px;
+	margin-left:50px;
+	clear:both;
+	border-top:solid 10px #008080;
+	border-bottom:solid 1px #008080;
+	border-left:solid 1px #008080;
+	border-right:solid 1px #008080;
+}
+#box22{
+	width:950px;
+	height:auto;
+	margin-left:50px;
+	clear:both;
+	border-top:solid 10px #cc3300;
+	border-bottom:solid 1px #cc3300;
+	border-left:solid 1px #cc3300;
+	border-right:solid 1px #cc3300;
+}
+.regi_tab{
+	background:#cc3300;
+}
+dl{
+/*	width:500px;*/
+	margin-left:30px;
+}
+dt{
+	cursor:pointer;
+	line-height:35px;
+	text-indent:3em;
+	color:#ffffbb;
+	font-weight:bold;
+	height:35px;
+	background-image: url('material/ac_back.png');
+	border-style: solid;
+	border-width: 6px;
+	-moz-border-image: url('material/ac_border.png') 6 repeat;
+	-webkit-border-image: url('material/ac_border.png') 6 repeat;
+	-o-border-image: url('material/ac_border.png') 6 repeat;
+	border-image: url('material/ac_border.png') 6 fill repeat;
+}
+dd{
+	margin:0;
+/*	height:150px;*/
+	padding:10px;
+}
+#box23{
+	clear:both;
+	width:950px;
+	height:auto;
+	margin-left:50px;
+	border-top:solid 10px #3333ff;
+	border-bottom:solid 1px #3333ff;
+	border-left:solid 1px #3333ff;
+	border-right:solid 1px #3333ff;	
+}
+#box24{
+	clear:both;
+	width:950px;
+	height:auto;
+	margin-left:50px;
+	border-top:solid 10px #33cc33;
+	border-bottom:solid 1px #33cc33;
+	border-left:solid 1px #33cc33;
+	border-right:solid 1px #33cc33;
+}
+#box25{
+	clear:both;
+	width:950px;
+	height:auto;
+	margin-left:50px;
+	border-top:solid 10px #ff6600;
+	border-bottom:solid 1px #ff6600;
+	border-left:solid 1px #ff6600;
+	border-right:solid 1px #ff6600;
+}
+#box26{
+	clear:both;
+	width:950px;
+	height:auto;
+	margin-left:50px;
+	border-top:solid 10px #009900;
+	border-bottom:solid 1px #009900;
+	border-left:solid 1px #009900;
+	border-right:solid 1px #009900;
+}
+#box27{
+	clear:both;
+	width:950px;
+/*	height:700px;*/
+	height:auto;
+	margin-left:50px;
+	border-top:solid 10px #ff69b4;
+	border-bottom:solid 1px #ff69b4;
+	border-left:solid 1px #ff69b4;
+	border-right:solid 1px #ff69b4;
+}
+#app{
+	background:#ff69b4;
+	width:500px;
+	margin-left:30px;
+	line-height:35px;
+	text-indent:3em;
+	color:#ffffbb;
+	font-weight:bold;
+	height:35px;
+	background-image: url('material/ac_back.png');
+	border-style: solid;
+	border-width: 6px;
+	-moz-border-image: url('material/ac_border.png') 6 repeat;
+	-webkit-border-image: url('material/ac_border.png') 6 repeat;
+	-o-border-image: url('material/ac_border.png') 6 repeat;
+	border-image: url('material/ac_border.png') 6 fill repeat;
+}
+#box28{
+	clear:both;
+	width:950px;
+	height:auto;
+	margin-left:50px;
+	border-top:solid 10px #40e0d0;
+	border-bottom:solid 1px #40e0d0;
+	border-left:solid 1px #40e0d0;
+	border-right:solid 1px #40e0d0;
+}
+ul{
+	margin:2px;
+}
+#books_all,#users_all{
+	font-size: 10px;
+	text-align:center;
+}
+.copy{
+	clear:both;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #333;
+	text-align: center;
+	font-size: 9px;
+	font-family: verdana, Geneva, sans-serif;
+	padding-top: 5px;
+}

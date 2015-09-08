@@ -1,0 +1,30 @@
+ul.pageNav {
+	margin: 0 0 10px;
+	padding: 10px 10px 5px;
+	text-align: center;
+	height:20px;
+}
+
+ul.pageNav li {
+	display: inline;
+	margin: 0 2px;
+	padding: 0;
+	font-size: 13px;
+
+}
+
+ul.pageNav li span,
+ul.pageNav li a {
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 1px 8px;
+	background: #DDDDDD;
+	border: 1px solid #aaa;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+ul.pageNav li a:hover {
+	background: #eeeff7;
+	border-color: #00f;
+}
