@@ -55,7 +55,7 @@
 				'associate_tag' => 'ryoheipro-22'
 			));
 
-			//$keyword = 'java';
+			$keyword = 'java';
 			$isbn = $_GET['ISBN'];
 
 
@@ -64,7 +64,7 @@
 				'SearchIndex'=>'Books',
 				'IdType'=>'ISBN',
 				'ItemId'=>$isbn,
-	//				'Keywords'=> $keyword,
+				'Keywords'=> $keyword,
 				'ItemPage'=> '1'
 			));
 			$result= $api->request($url);
