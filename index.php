@@ -337,6 +337,6 @@
 				</dd>
 			</dl>
 		</div>
-		<p><div class="copy">Copyright (c) 2014 Ryohei Takayama All Rights Reserved.</div></p>
+		<p><div class="copy">Copyright (c) 2014 Ryohei Takayama (and HJ) All Rights Reserved.</div></p>
 	</body>
 </html>
