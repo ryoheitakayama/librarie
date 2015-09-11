@@ -158,7 +158,7 @@
 
 		<div id="box22"class="contents">
 			<dl style="	width:500px;">
-				<dt class="regi_tab">ISBNから登録</dt>
+				<dt class="regi_tab">ISBNで登録</dt>
 					<dd style="height:150px;">
 						<p style='font-size:11px'>ISBNをハイフン(-)無しで入力. ISBN以外の入力には対応していません.</p>
 						<form action="register/" method="get">
@@ -166,7 +166,7 @@
 							<p><input type="submit" value="検索" style="color:gray"></p>
 						</form>
 					</dd>
-				<dt class="regi_tab">タイトルから登録</dt>
+				<dt class="regi_tab">タイトルで登録</dt>
 					<dd style="height:150px;">
 						<p style='font-size:11px'>本のタイトルを入力.</p>
 						<form action="register/bookname/" method="get">
@@ -175,7 +175,7 @@
 							<p><input type="submit" value="検索" style="color:gray"></p>
 						</form>
 					</dd>
-				<dt class="regi_tab">著者名から登録</dt>
+				<dt class="regi_tab">著者名で登録</dt>
 					<dd style="height:150px;">
 						<p style='font-size:11px'>著者名を入力.</p>
 						<form action="register/authorname/" method="get">
